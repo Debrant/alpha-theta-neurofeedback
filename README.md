@@ -2,6 +2,10 @@
 
 A Raspberry Pi-based system for alpha-theta neurofeedback training, implementing the protocols described in Bessel van der Kolk's "The Body Keeps the Score."
 
+## Documentation
+
+📖 **[Project Wiki](https://github.com/Debrant/alpha-theta-neurofeedback/wiki)** - Comprehensive documentation, research notes, and development history
+
 ## Project Goals
 
 - Build custom EEG hardware using AD620 instrumentation amplifiers
