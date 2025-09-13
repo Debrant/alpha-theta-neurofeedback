@@ -31,12 +31,12 @@ def test_signal_processing():
 
 	# Find peak frequencies
 	positive_freqs = freqs[:len(signal_data)//2]
-	magnitude = np.abs(fft_data[:len(fft_data)//2]
+	magnitude = np.abs(fft_data[:len(fft_data)//2])
 
 	# Skip DC component while finding peack frequency
-    magnitude_no_dc = magnitude[1:]
-    peak_idx_no_dc = np.argmax(magnitude_no_dc)
-    peak_idx =  peak_idx_no_dc + 1                      
+	magnitude_no_dc = magnitude[1:]
+	peak_idx_no_dc = np.argmax(magnitude_no_dc)
+	peak_idx = peak_idx_no_dc + 1                      
                        
 	peak_freq = positive_freqs[peak_idx]
 
@@ -53,7 +53,7 @@ def test_audio():
 		duration = 1.0 
 		frequency = 440  # A4 note
 
-		t = np.linspace(0, duration, int(fs * t)
+		t = np.linspace(0, duration, int(fs * duration))
 		tone = 0.3 * np.sin(2 * np.pi * frequency * t)
 
 		# Play tone
@@ -63,9 +63,10 @@ def test_audio():
 			rate=fs,
 			output=True)
 
-		print("Playing test tone (44 HZ for 1 second)...")
+		print("Playing test tone (440 HZ for 1 second)...")
+		stream.write(tone.astype(np.float32).tobytes())
 		stream.stop_stream()
-		steam.close()
+		stream.close()
 		p.terminate()
 	
 		print("Audio test: PASSED")
@@ -86,7 +87,7 @@ def test_hardware_interface():
 
 	try:
 		import smbus
-		print("I2C interfaceO Available")
+		print("I2C interface: Available")
 	except ImportError:
 		print("I2C interface: NOT AVAILABLE")
 
@@ -101,10 +102,13 @@ if __name__ == "__main__":
 	print()
 
 
+	test_signal_processing()
+	print()
+	
 	test_audio()
 	print()
 
-	test_hardware()
+	test_hardware_interface()
 	print()
 
 	print("Setup test complete")
