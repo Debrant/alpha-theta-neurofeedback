@@ -33,17 +33,14 @@ neurofeedback_env/
 
 
 # Data files
-data/raw/*
-data/processed/*
-data/sessions/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/sessions/.gitkeep
+data/raw/*.csv
+data/raw/*.edf
+data/processed/*.pkl
+data/sessions/*.json
 
 # Logs
 *.log
 logs/
-!logs/.gitkeep
 
 # OS
 .DS_Store
