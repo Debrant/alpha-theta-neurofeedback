@@ -48,6 +48,12 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+*~
+
+# Platform-specific Python artifacts  
+*.dylib  # macOS shared libraries
+*.dll    # Windows shared libraries
+.Python  # Python symlink issues
 
 # Config for sensitive data
 config/secrets.py
