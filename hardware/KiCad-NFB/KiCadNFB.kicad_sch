@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e0206a0b-7d8e-40c9-8e1a-6f0a40f99327")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 148.59 82.55)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "04a01f42-e26c-4f7c-afff-25cc8421631b")
+		(property "Sheetname" "pz_cz_stage"
+			(at 148.59 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pz_cz_stage.kicad_sch"
+			(at 148.59 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KiCadNFB"
+				(path "/e0206a0b-7d8e-40c9-8e1a-6f0a40f99327"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.534 56.388)
+		(size 25.4 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "411559ef-7b18-4d57-a43b-1427f2066620")
+		(property "Sheetname" "pi_interface"
+			(at 208.534 55.6764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pi_interface.kicad_sch"
+			(at 208.534 81.1026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KiCadNFB"
+				(path "/e0206a0b-7d8e-40c9-8e1a-6f0a40f99327"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.574 33.02)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4dfc3ad-9a03-4571-9238-68fe34b6a98f")
+		(property "Sheetname" "p3_p4_stage"
+			(at 147.574 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "p3_p4_stage.kicad_sch"
+			(at 147.574 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KiCadNFB"
+				(path "/e0206a0b-7d8e-40c9-8e1a-6f0a40f99327"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.265 56.007)
+		(size 24.13 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4f7546c-d0fb-4470-8833-a3b6c72a962e")
+		(property "Sheetname" "power_supply"
+			(at 88.265 55.2954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 88.265 80.7216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KiCadNFB"
+				(path "/e0206a0b-7d8e-40c9-8e1a-6f0a40f99327"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
